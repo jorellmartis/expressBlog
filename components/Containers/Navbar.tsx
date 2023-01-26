@@ -1,9 +1,9 @@
 import { theme } from "@/stitches.config"
 import { styled } from "@stitches/react"
-import { Logo } from "../Icons/Utils"
-import ButtonUI from "../UIKit/ButtonUI"
-import FlexBox from "../UIKit/FlexBox"
-import Typography from "../UIKit/Typography"
+import { Logo } from "@/components/Icons/Utils"
+import ButtonUI from "@/components/UIKit/ButtonUI"
+import FlexBox from "@/components/UIKit/FlexBox"
+import Typography from "@/components/UIKit/Typography"
 
 const NavbarStyled = styled(FlexBox,{
   background: theme.navbar.navbgcolor,

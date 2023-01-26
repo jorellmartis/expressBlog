@@ -63,8 +63,8 @@ const TextStyled = styled('div',{
                 fontWeight: theme.typography.fontWeightBody,
             },
             label:{
-                fontSize: theme.typography.fontSizeDisplay,
-                lineHeight: theme.typography.lineHeightDisplay,
+                fontSize: theme.typography.fontSizeLabel,
+                lineHeight: theme.typography.lineHeightLabel,
                 fontWeight: theme.typography.fontWeightBody,
             }
         },

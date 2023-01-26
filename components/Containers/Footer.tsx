@@ -3,16 +3,16 @@ import { styled } from "@stitches/react"
 import { Logo } from "@/components//Icons/Utils"
 import FlexBox from "@/components/UIKit/FlexBox"
 import Typography from "@/components/UIKit/Typography"
-import ButtonUI from "../UIKit/ButtonUI"
+import ButtonUI from "@/components/UIKit/ButtonUI"
 import { FacebookLogo, InstaLogo, LinkedInLogo, TwitterLogo } from "../Icons/SocialMedia"
 
 const FooterStyled = styled(FlexBox,{
   width: '100vw',
   height: 'clamp(200px, 50vw, 600px)',
   background: theme.navbar.navbgcolor,
-  position: 'fixed',
-  bottom: 0,
-  left: 0,
+  // position: 'absolute',
+  // bottom: 0,
+  // left: 0,
   padding: '4% 6%'
 })
 

@@ -49,7 +49,7 @@ const template = () => {
             </ColorPalette>
             <ColorPalette css={{background: theme.colors.darkGrey100 }}>
             </ColorPalette>
-            <ColorPalette css={{background: theme.colors.mediumGrey100}}>
+            <ColorPalette css={{background: theme.colors.mediumGrey}}>
             </ColorPalette>
             <ColorPalette css={{background: theme.colors.purple100 }}>
             </ColorPalette>
@@ -59,7 +59,7 @@ const template = () => {
             </ColorPalette>
             <ColorPalette css={{background: theme.colors.lightGrey100 }}>
             </ColorPalette>
-            <ColorPalette css={{background: theme.colors.lightYellow100 }}>
+            <ColorPalette css={{background: theme.colors.lightYellow }}>
             </ColorPalette>
         </FlexBox>
         <ButtonUI bLink="href" bText="Read fsfsffsfsfs" bSize="medium"/>

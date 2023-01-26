@@ -1,6 +1,6 @@
 import { ReactElement } from 'react'
-import Footer from '../Containers/Footer'
-import Navbar from '../Containers/Navbar'
+import Footer from '@/components/Containers/Footer'
+import Navbar from '@/components/Containers/Navbar'
 const Navigation = ({children} : { children: ReactElement}) => {
   return (
     <>
