@@ -2,7 +2,6 @@ import { styled, VariantProps, CSS} from "@stitches/react";
 
 const FlexWrapper = styled('div',{
     display: 'flex',
-    flexWrap: 'wrap',
     variants: {
         alignItems: {
             center: {

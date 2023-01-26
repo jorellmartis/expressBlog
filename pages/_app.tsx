@@ -1,7 +1,8 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { Sen } from '@next/font/google'
-
+import Navigation from '@/components/Layout/Navigation'
+import React from 'react'
 
 const sen = Sen({
   weight: ['700','400'],
@@ -17,7 +18,9 @@ export default function App({ Component, pageProps }: AppProps) {
       font-family: ${sen.style.fontFamily};
     }
   `}</style>
+  <Navigation>
     <Component {...pageProps} />
+  </Navigation>
   </>
   )
 }

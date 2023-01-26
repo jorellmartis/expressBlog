@@ -67,7 +67,7 @@ const TextStyled = styled('div',{
                 lineHeight: theme.typography.lineHeightDisplay,
                 fontWeight: theme.typography.fontWeightBody,
             }
-        }
+        },
     },
 }
 );

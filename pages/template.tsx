@@ -62,7 +62,7 @@ const template = () => {
             <ColorPalette css={{background: theme.colors.lightYellow100 }}>
             </ColorPalette>
         </FlexBox>
-        <ButtonUI bLink="href" bText="Read More" bSize="medium"/>
+        <ButtonUI bLink="href" bText="Read fsfsffsfsfs" bSize="medium"/>
         <InstaLogo/>
         <FacebookLogo/>
         <LinkedInLogo/>

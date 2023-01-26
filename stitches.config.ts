@@ -1,4 +1,5 @@
 import { createStitches } from "@stitches/react";
+import uiNavbarConfig from "./config/uiNavbarConfig";
 import uiTypographyConfig from "./config/uiTypographyConfig";
 
 export const {
@@ -12,6 +13,7 @@ export const {
     getCssText} = createStitches({
         theme:{
             colors:{
+                white700: 'rgba(255, 255, 255, 0.7)',
                 black100: '#232536',
                 yellow100: '#FFD050',
                 purple100: '#592EA9',
@@ -25,6 +27,7 @@ export const {
                 // background:""
             },
             typography: uiTypographyConfig,
+            navbar : uiNavbarConfig,
             //add any object styles you want....  
         },
         media:{
