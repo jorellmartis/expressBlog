@@ -66,13 +66,48 @@ const TextStyled = styled('div',{
                 fontSize: theme.typography.fontSizeLabel,
                 lineHeight: theme.typography.lineHeightLabel,
                 fontWeight: theme.typography.fontWeightBody,
-            }
+            },
+            Cap1 : {
+                fontSize: theme.typography.fontSizeCap1,
+                lineHeight: theme.typography.lineHeightCap1,
+                fontWeight: theme.typography.fontWeightBody,
+                letterSpacing: theme.typography.letterSpacingCap1,
+            } 
         },
+        textOverflow: {
+            ellipsis: {
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                overflow: "hidden",
+            },
+        },
+        textTransform: {
+            uppercase: {
+                textTransform: "uppercase",
+            },
+            lowercase: {
+                textTransform: "lowercase",
+            },
+            capitalize: {
+                textTransform: "capitalize",
+            },
+        },
+        textAlign:{
+            center:{
+                textAlign: 'center',
+            },
+            left:{
+                textAlign: 'left'
+            },
+            right:{
+                textAlign: 'right'
+            },
+        }
     },
 }
 );
 type IHeadings = 1 | 2 | 3 | 4 | 5 | 6  ;
-type ITextTypes = 'Display' | 'Bd01' | 'Bd02' | 'label';
+type ITextTypes = 'Display' | 'Bd01' | 'Bd02' | 'label' | 'Cap1' ;
 
 interface TypographyProps extends VariantProps<typeof TextStyled> {
     level?: IHeadings
@@ -83,6 +118,7 @@ interface TypographyProps extends VariantProps<typeof TextStyled> {
     href?: string;
     textOverflow?: "ellipsis";
     textTransform?: "uppercase" | "lowercase" | "capitalize";
+    textAlign?: 'center' | 'right' | 'left'; 
     target?: string;
     lineClamp?: "yes";
     dangerouslySetInnerHTML?: {

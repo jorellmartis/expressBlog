@@ -1,4 +1,4 @@
 export default{
-    navbgcolor: "$colors$black100",
-    footercontentcolor: "$colors$darkGrey100",
+    navbgcolor: "$colors$black",
+    footercontentcolor: "$colors$darkGrey",
 }

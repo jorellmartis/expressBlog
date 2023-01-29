@@ -1,6 +1,6 @@
 import { theme } from "@/stitches.config"
 import { styled } from "@stitches/react"
-import FlexBox from "./FlexBox"
+import FlexBox from "@/components/UIKit/FlexBox"
 
 
 
@@ -8,7 +8,7 @@ const ButtonStyled =  styled('a',{
   display: 'inline-flex',
   cursor: 'pointer',
   padding:'10px 20px',
-  background: theme.colors.yellow100,
+  background: theme.colors.yellow,
   height: '100%',
   transition: 'all 300ms',
     '&:hover':{

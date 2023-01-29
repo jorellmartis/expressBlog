@@ -15,14 +15,14 @@ export const {
         theme:{
             colors:{
                 white700: 'rgba(255, 255, 255, 0.7)',
-                black100: '#232536',
-                yellow100: '#FFD050',
-                purple100: '#592EA9',
-                darkGrey100: '#4C4C4C',
+                black: '#232536',
+                yellow: '#FFD050',
+                purple: '#592EA9',
+                darkGrey: '#4C4C4C',
                 mediumGrey: '#6D6E76',
                 mediumGrey100: 'rgba(109, 110, 118, 0.1)',
-                lightGrey100: '#F4F4F4',
-                lavender100: '#F4F0F8',
+                lightGrey: '#F4F4F4',
+                lavender: '#F4F0F8',
                 lightYellow: '#FBF6EA',
             },
             page:{

@@ -1,3 +1,4 @@
+import ButtonUI from "@/components/UIKit/ButtonUI"
 import DesignationLabel from "@/components/UIKit/DesignationLabel"
 import FlexBox from "@/components/UIKit/FlexBox"
 import ImageWrapper from "@/components/UIKit/ImageWrapper"
@@ -21,7 +22,7 @@ type FeaturedPostProps = {
 const FeaturedPost = ({featuredPostData}: FeaturedPostProps) => {
   return (
     <FlexBox css={{width:'50%'}} flexDirection="column">
-        <Typography level={2} as= 'h2'>
+        <Typography level={2} css= {{marginBottom: 30}} as= 'h2'>
             Featured Post
         </Typography>
         <FeatPostContent flexDirection="column">
@@ -33,6 +34,7 @@ const FeaturedPost = ({featuredPostData}: FeaturedPostProps) => {
         <Typography textType="Bd01" textOverflow="ellipsis" as='p'>
             {featuredPostData?.description}
         </Typography>
+        <ButtonUI bText="Read More" bLink="href"/>
         </FeatPostContent>
     </FlexBox>
   )

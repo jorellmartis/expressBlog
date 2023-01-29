@@ -45,19 +45,19 @@ const template = () => {
             label
         </Typography>
         <FlexBox>
-            <ColorPalette css={{background: theme.colors.black100 }}>
+            <ColorPalette css={{background: theme.colors.black }}>
             </ColorPalette>
-            <ColorPalette css={{background: theme.colors.darkGrey100 }}>
+            <ColorPalette css={{background: theme.colors.darkGrey }}>
             </ColorPalette>
             <ColorPalette css={{background: theme.colors.mediumGrey}}>
             </ColorPalette>
-            <ColorPalette css={{background: theme.colors.purple100 }}>
+            <ColorPalette css={{background: theme.colors.purple }}>
             </ColorPalette>
-            <ColorPalette css={{background: theme.colors.yellow100 }}>
+            <ColorPalette css={{background: theme.colors.yellow }}>
             </ColorPalette>
-            <ColorPalette css={{background: theme.colors.lavender100 }}>
+            <ColorPalette css={{background: theme.colors.lavender }}>
             </ColorPalette>
-            <ColorPalette css={{background: theme.colors.lightGrey100 }}>
+            <ColorPalette css={{background: theme.colors.lightGrey }}>
             </ColorPalette>
             <ColorPalette css={{background: theme.colors.lightYellow }}>
             </ColorPalette>

@@ -41,7 +41,7 @@ interface ImageWrapperProps extends VariantProps<typeof ImageStyled>  {
 }
 const ImageWrapper = ({src, alt, ...rest}: ImageWrapperProps) => {
   return (
-    <ImageStyled src={src} />
+    <ImageStyled {...rest} src={src} />
   )
 }
 

@@ -1,5 +1,10 @@
 export default{
     //Homepage 
     blockBorderColor : "$colors$mediumGrey100",
-    miniCardBgColorHover : "$colors$lightYellow"
+    miniCardBgColorHover : "$colors$lightYellow",
+    infoBlockBgColor : "$colors$lavender",
+    infoBlockParagraphColor: "$colors$mediumGrey",
+    categoryCardBgHover: "$colors$yellow",
+    authorCardBgColor: "$colors$lightGrey",
+    authorCardBgHoverColor: "$colors$lightYellow"
 }

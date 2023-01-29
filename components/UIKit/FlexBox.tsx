@@ -27,6 +27,12 @@ const FlexWrapper = styled('div',{
             spaceBetween: {
             justifyContent: "space-between",
             },
+            spaceAround: {
+                justifyContent: "space-around",
+                },
+            spaceEvenly: {
+                justifyContent: "space-evenly",
+                },
         },
         flexDirection: {
             column: {
@@ -59,7 +65,7 @@ const FlexWrapper = styled('div',{
 interface FlexProps extends VariantProps<typeof FlexWrapper> {
     children: React.ReactNode;
     alignItems?: "center" | "flexStart" | "flexEnd";
-    justifyContent?: "center" | "flexStart" | "flexEnd" | "spaceBetween";
+    justifyContent?: "center" | "flexStart" | "flexEnd" | "spaceBetween" | "spaceEvenly" | "spaceAround";
     flexDirection?: "column" | "row" | "columnReverse" | "rowReverse";
     flexWrap?: "wrap" | "none" | "nowrap";
     css?: CSS;

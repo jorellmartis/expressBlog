@@ -1,11 +1,11 @@
 export default {
     // Levels
-    fontSizeH1: '56px',
-    fontSizeH2: '48px',
-    fontSizeH3: '36px',
-    fontSizeH4: '32px',
-    fontSizeH5: '32px',
-    fontSizeH6: '24px',
+    fontSizeH1: '48px',
+    fontSizeH2: '36px',
+    fontSizeH3: '28px',
+    fontSizeH4: '24px',
+    fontSizeH5: '20px',
+    fontSizeH6: '16px',
     fontWeightCommon: 700,
     lineHeightH1: '64px',
     lineHeightH2: '48px',
@@ -25,7 +25,11 @@ export default {
 
     fontSizeLabel: '14px',
     lineHeightLabel: '20px',
-    fontWeightBody: 400,
+    fontWeightBody: 400, 
+
+    fontSizeCap1: '16px',
+    lineHeightCap1: '20px',
+    letterSpacingCap1: '3px',
     
     // margins
     marginBottom: "20px",
