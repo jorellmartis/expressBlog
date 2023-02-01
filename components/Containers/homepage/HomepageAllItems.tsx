@@ -7,6 +7,9 @@ import InfoBlock from "@/components/Containers/homepage/InfoBlock"
 import { BuisnessLogo, EconomyLogo, StartupLogo, TechLogo } from "@/components/Icons/Utils"
 import OurStoryBlock from "./OurStoryBlock"
 import AuthorBlock from "./AuthorBlock"
+import FeaturedInLogo from "./FeaturedInLogo"
+import TestimonialBlock from "./TestimonialBlock"
+import HomeBanner from "./HomeBanner"
 
 const Wrapper = styled(FlexBox,{
   padding: '3% 5%',
@@ -58,6 +61,7 @@ const CategoryData = [
 const HomepageAllItems = () => {
   return (
     <>
+    <HomeBanner/>
     <Wrapper flexDirection="column">
       <FlexBox css={{gap:'3%'}}>
         <FeaturedPost featuredPostData={FeaturedData}/>
@@ -67,6 +71,8 @@ const HomepageAllItems = () => {
     <ChooseCategoryBlock data={CategoryData}/>
     <OurStoryBlock/>
     <AuthorBlock/>
+    <FeaturedInLogo/>
+    <TestimonialBlock/>
     </Wrapper>
     </>
   )

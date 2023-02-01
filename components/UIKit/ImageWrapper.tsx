@@ -9,7 +9,7 @@ const ImageStyled = styled('img',{
                 objectFit: 'contain'
             },
             cover:{
-                objectFit: 'contain'
+                objectFit: 'cover'
             },
         },
         imagePostion:{

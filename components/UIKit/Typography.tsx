@@ -102,6 +102,11 @@ const TextStyled = styled('div',{
             right:{
                 textAlign: 'right'
             },
+        },
+        style:{
+            faded:{
+                color: '$colors$mediumGrey'
+            }
         }
     },
 }
@@ -119,6 +124,7 @@ interface TypographyProps extends VariantProps<typeof TextStyled> {
     textOverflow?: "ellipsis";
     textTransform?: "uppercase" | "lowercase" | "capitalize";
     textAlign?: 'center' | 'right' | 'left'; 
+    style?: 'faded'
     target?: string;
     lineClamp?: "yes";
     dangerouslySetInnerHTML?: {

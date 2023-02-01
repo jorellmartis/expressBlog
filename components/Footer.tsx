@@ -4,11 +4,11 @@ import { Logo } from "@/components//Icons/Utils"
 import FlexBox from "@/components/UIKit/FlexBox"
 import Typography from "@/components/UIKit/Typography"
 import ButtonUI from "@/components/UIKit/ButtonUI"
-import { FacebookLogo, InstaLogo, LinkedInLogo, TwitterLogo } from "../Icons/SocialMedia"
+import { FacebookLogo, InstaLogo, LinkedInLogo, TwitterLogo } from "./Icons/SocialMedia"
 
 const FooterStyled = styled(FlexBox,{
   width: '100vw',
-  height: 'clamp(200px, 50vw, 600px)',
+  height: 'clamp(200px, 50vw, 800px)',
   background: theme.navbar.navbgcolor,
   // position: 'absolute',
   // bottom: 0,

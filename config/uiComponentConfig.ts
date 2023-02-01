@@ -6,5 +6,6 @@ export default{
     infoBlockParagraphColor: "$colors$mediumGrey",
     categoryCardBgHover: "$colors$yellow",
     authorCardBgColor: "$colors$lightGrey",
-    authorCardBgHoverColor: "$colors$lightYellow"
+    authorCardBgHoverColor: "$colors$lightYellow",
+    testimonialBgColor: "$colors$lightYellow",
 }
