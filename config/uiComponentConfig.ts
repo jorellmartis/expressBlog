@@ -8,4 +8,7 @@ export default{
     authorCardBgColor: "$colors$lightGrey",
     authorCardBgHoverColor: "$colors$lightYellow",
     testimonialBgColor: "$colors$lightYellow",
+
+    //BlogListing
+    blogBannerBgColor : "$colors$lavender"
 }

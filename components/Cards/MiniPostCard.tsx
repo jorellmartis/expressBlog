@@ -1,7 +1,7 @@
 import React from 'react'
 import DesignationLabel from '@/components/UIKit/DesignationLabel'
 import FlexBox from '@/components/UIKit/FlexBox'
-import Typography from '../UIKit/Typography'
+import Typography from '@/components/UIKit/Typography'
 import { styled } from '@stitches/react'
 import { theme } from '@/stitches.config'
 

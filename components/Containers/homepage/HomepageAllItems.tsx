@@ -35,7 +35,7 @@ const FeaturedData = {
   dateCreated: '24/5/75',
   image: '/src.here'
 }
-const CategoryData = [
+export const CategoryData = [
   {
     logo: <BuisnessLogo/>,
     title: 'Business',

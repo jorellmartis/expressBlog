@@ -33,15 +33,15 @@ const ImageStyled = styled('img',{
 })
 
 interface ImageWrapperProps extends VariantProps<typeof ImageStyled>  {
-    src: string
-    alt?: string
-    objectFit?: 'contain' | 'cover'
-    imagePosition?: 'top' | 'right' | 'bottom' | 'left' | 'center' 
-    css?: CSS
+    src: string;
+    alt?: string;
+    objectFit?: 'contain' | 'cover';
+    imagePosition?: 'top' | 'right' | 'bottom' | 'left' | 'center' ;
+    css?: CSS;
 }
 const ImageWrapper = ({src, alt, ...rest}: ImageWrapperProps) => {
   return (
-    <ImageStyled {...rest} src={src} />
+    <ImageStyled {...rest} src={src}/>
   )
 }
 

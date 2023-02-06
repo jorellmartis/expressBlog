@@ -106,6 +106,9 @@ const TextStyled = styled('div',{
         style:{
             faded:{
                 color: '$colors$mediumGrey'
+            },
+            anchor:{
+                color: '$colors$purple'
             }
         }
     },
@@ -124,7 +127,7 @@ interface TypographyProps extends VariantProps<typeof TextStyled> {
     textOverflow?: "ellipsis";
     textTransform?: "uppercase" | "lowercase" | "capitalize";
     textAlign?: 'center' | 'right' | 'left'; 
-    style?: 'faded'
+    style?: 'faded' | 'anchor'
     target?: string;
     lineClamp?: "yes";
     dangerouslySetInnerHTML?: {
