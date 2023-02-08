@@ -3,9 +3,9 @@ import BlogAllPosts from "@/components/Containers/bloglisting//BlogAllPosts"
 import BlogBanner from "@/components/Containers/bloglisting//BlogBanner"
 import BlogCategories from "./BlogCategories"
 import { CategoryData } from "../homepage/HomepageAllItems"
+import FlexBox from "@/components/UIKit/FlexBox"
 
-const BlogListingWrapper = styled('div',{
-  display: 'flex',
+const BlogListingWrapper = styled(FlexBox,{
   padding: '3% 5%',
   width: '100vw',
   height:'auto',
@@ -15,7 +15,7 @@ const BlogAllItems = () => {
   return (
     <>
     <BlogBanner/>
-    <BlogListingWrapper>
+    <BlogListingWrapper flexDirection="column">
       <BlogAllPosts/>
       <BlogCategories data={CategoryData}/>
     </BlogListingWrapper>
