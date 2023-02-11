@@ -1,3 +1,4 @@
+import { SessionProvider } from "next-auth/react"
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { Sen } from '@next/font/google'
@@ -10,7 +11,7 @@ const sen = Sen({
   subsets: ['latin']
 })
 
-export default function App({ Component, pageProps }: AppProps) {
+export default function App({Component, pageProps }: AppProps) {
   return (
     <>
     <style jsx global>{`
@@ -18,9 +19,11 @@ export default function App({ Component, pageProps }: AppProps) {
       font-family: ${sen.style.fontFamily};
     }
   `}</style>
+  <SessionProvider session={pageProps.session}>
   <Navigation>
     <Component {...pageProps} />
   </Navigation>
+  </SessionProvider>
   </>
   )
 }
