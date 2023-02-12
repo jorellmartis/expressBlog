@@ -14,6 +14,7 @@ export const {
     getCssText} = createStitches({
         theme:{
             colors:{
+                white: '#ffffff',
                 white700: 'rgba(255, 255, 255, 0.7)',
                 black: '#232536',
                 yellow: '#FFD050',

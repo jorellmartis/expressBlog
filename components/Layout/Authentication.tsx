@@ -12,7 +12,7 @@ const AuthContent = styled(FlexBox,{
   padding: '8% 5%',
   width: '100%',
   height: '100%',
-  'div:nth-child(1)':{
+  '.authLogoContent':{
     background: theme.component.logoAuthBgColor,
   }
 })
@@ -21,7 +21,7 @@ const Authentication = ({children}: {children: React.ReactNode}) => {
     <AuthWrapper justifyContent="center" alignItems="center">
       <ImageWrapper objectFit="cover" css={{position: 'absolute', zIndex:-1}} src="/loginBg.jpg"/>
       <AuthContent>
-        <FlexBox justifyContent="center" alignItems="center" css={{width: '65%'}}>
+        <FlexBox className="authLogoContent" justifyContent="center" alignItems="center" css={{width: '65%'}}>
           <LogoAuth/>
         </FlexBox>
         {children}

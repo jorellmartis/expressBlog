@@ -13,5 +13,6 @@ export default{
     blogBannerBgColor : "$colors$lavender",
 
     //Auth Pages
-    logoAuthBgColor: "$colors$lavender"
+    logoAuthBgColor: "$colors$lavender",
+    formBgColor: "$colors$white",
 }
