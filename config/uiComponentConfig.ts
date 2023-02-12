@@ -10,5 +10,8 @@ export default{
     testimonialBgColor: "$colors$lightYellow",
 
     //BlogListing
-    blogBannerBgColor : "$colors$lavender"
+    blogBannerBgColor : "$colors$lavender",
+
+    //Auth Pages
+    logoAuthBgColor: "$colors$lavender"
 }

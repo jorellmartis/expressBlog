@@ -23,22 +23,23 @@ const ButtonStyled =  styled('a',{
         padding:'15px 20px',
       },
       large:{
-        padding:'25px 30px',
+        padding:'15px 100px',
       },
     }
   }
 })
 
 type ButtonUIProps = {
-  bText : string
-  bLink : string
-  bSize? : 'small' | 'medium' | 'large'
+  bText : string;
+  bLink : string;
+  bSize? : 'small' | 'medium' | 'large';
+  onClick?: (event: React.MouseEvent<HTMLAnchorElement>) => void;
 }
 
-const ButtonUI = ({bText, bLink, bSize}: ButtonUIProps) => {
+const ButtonUI = ({bText, bLink, bSize, onClick}: ButtonUIProps) => {
   return (
     <FlexBox>
-    <ButtonStyled buttonSize={bSize} href={bLink}>{bText}</ButtonStyled>
+    <ButtonStyled onClick={onClick} buttonSize={bSize} href={bLink}>{bText}</ButtonStyled>
     </FlexBox>
   )
 }
