@@ -12,12 +12,7 @@ import { LockOutlined, UserOutlined } from '@ant-design/icons';
 import { Button, Checkbox, Form, Input } from 'antd';
 import { useState } from "react";
 
-const LoginWrapper = styled(FlexBox,{
-  width: '35%',
-  padding: '2%',
-  gap: 45,
-  background: theme.component.formBgColor
-})
+
 const LoginHeader = styled(FlexBox,{
     gap: 35
 })
@@ -31,7 +26,7 @@ const Login : NextPageWithLayout = () => {
         signIn('google',{callbackUrl:'http://localhost:3000'})
     }
   return (
-    <LoginWrapper flexDirection="column"  alignItems="flexStart">
+        <>
         <LoginHeader flexDirection="column">
           <FlexBox alignItems="center">
             <Typography css={{marginRight:40}} textType="Cap1" textTransform="uppercase" as='h2'>
@@ -83,7 +78,7 @@ const Login : NextPageWithLayout = () => {
         </Button>
       </Form>
       {/* <ButtonUI bSize="large" bLink="" bText="Sign In" onClick={handleGoogleAuth}/> */}
-    </LoginWrapper>
+    </>
   )
 };
 export default Login
